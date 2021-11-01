@@ -1,0 +1,38 @@
+
+
+body{
+    
+    background-image: linear-gradient(to right top, #da299c, #c138a9, #a543b2, #864cb7, #6352b8, #4c60c1, #306dc7, #0078c9, #0090d3, #00a6d3, #00b9cc, #2ecbc1);
+    font-family: 'Gentium Basic', serif;
+}
+
+.innercont1{
+    background-color: beige;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    transition:all 0.5s;
+    display: flex;
+    /* width:75%; */
+    width:75vw;
+    margin:auto;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    font-size:1.5rem;
+    font-style: italic;
+
+}
+
+.innercont1:hover{
+    background-color: burlywood;
+    color:brown;
+}
+
+.header{
+    font-size:2rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
